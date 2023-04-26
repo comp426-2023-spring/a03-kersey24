@@ -6,11 +6,6 @@ import minimist from "minimist";
 
 const args= minimist(process.argv.slice(2));
 
-function rps() {
-  const results = ["rock", "paper", "scissors"];
-  return JSON.stringify({"player": results[Math.floor(Math.random() * results.length)]});
-}
-
 if (args.h || args.help) {
     console.log('Usage: node-rps [SHOT]
 Play Rock Paper Scissors (RPS)
