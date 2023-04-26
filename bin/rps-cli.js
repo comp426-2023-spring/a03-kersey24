@@ -52,7 +52,7 @@ if (args._.length === 0){
     }
 }
 
-if args._.length === 1) {
+if (args._.length === 1) {
 	try {
         const play = args._[0].toLowerCase();
         console.log(JSON.stringify(rps(play)));
