@@ -4,7 +4,7 @@ import { rps } from "../lib/rpsls.js";
 
 import minimist from "minimist";
 
-const args= minimist(process.argv.slice(2));
+const args= minimist(process.argv.slice(2))
 
 
 if (args.h || args.help) {
